@@ -9,3 +9,6 @@ colorscheme railscasts
 
 set wildmode=longest,list,full
 set wildmenu
+set tabstop=2
+set shiftwidth=2
+set expandtab
