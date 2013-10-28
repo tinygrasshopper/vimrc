@@ -1,6 +1,10 @@
+filetype off
 execute pathogen#infect()
+call pathogen#helptags()
+
 syntax on
 filetype plugin indent on
+
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
 
@@ -14,7 +18,8 @@ set shiftwidth=2
 set expandtab
 
 " Rspec.vim mappings
-map <Leader>t :call RunCurrentSpecFile()<CR>
+" map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
