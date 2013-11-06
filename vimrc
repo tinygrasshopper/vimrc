@@ -16,6 +16,8 @@ set wildmenu
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set number
+set laststatus=2
 
 " Rspec.vim mappings
 " map <Leader>t :call RunCurrentSpecFile()<CR>
