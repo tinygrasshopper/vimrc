@@ -9,3 +9,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-rails.git'
+
+
+Bundle 'flazz/vim-colorschemes'
+colorscheme railscasts
