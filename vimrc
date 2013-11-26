@@ -9,10 +9,25 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-rails.git'
+Bundle 'scrooloose/nerdtree'
+Bundle 'myusuf3/numbers.vim'
+Bundle 'bling/vim-airline'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
+Bundle 'Lokaltog/vim-easymotion'
 
+Bundle 'kana/vim-textobj-user'
+Bundle 'nelstrom/vim-textobj-rubyblock'
+
+Bundle 'git://git.wincent.com/command-t.git'
+
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'tsaleh/vim-matchit'
 
 Bundle 'flazz/vim-colorschemes'
-colorscheme railscasts
+colorscheme zenburn
 
 
 " Defaults
