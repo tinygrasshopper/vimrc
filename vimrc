@@ -20,6 +20,10 @@ Bundle 'tpope/vim-haml'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'mikewest/vimroom'
+Bundle 'rodjek/vim-puppet'
+Bundle 'godlygeek/tabular'
+Bundle 'scrooloose/syntastic'
 
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
@@ -52,6 +56,7 @@ set shiftwidth=2
 set expandtab
 set number
 set laststatus=2
+let g:vimroom_sidebar_height=0
 
 " Rspec.vim mappings
 " map <Leader>t :call RunCurrentSpecFile()<CR>
